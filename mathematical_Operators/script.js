@@ -1,13 +1,13 @@
-let primaryNumber = Number (prompt ("Informe o primeiro número:"))
+let firstNumber = Number (prompt ("Informe o primeiro número:"))
 let secondNumber = Number (prompt  ("Informe o segundo número:"))
 
 
 
-let calSum = primaryNumber + secondNumber
-let calSub = primaryNumber - secondNumber
-let calMult = primaryNumber * secondNumber
-let calDiv = (primaryNumber / secondNumber).toFixed(2)
-let calDivRest = primaryNumber % secondNumber
+let calSum = firstNumber + secondNumber
+let calSub = firstNumber - secondNumber
+let calMult = firstNumber * secondNumber
+let calDiv = (firstNumber / secondNumber).toFixed(2)
+let calDivRest = firstNumber % secondNumber
 
 alert (`A soma é  ${calSum}
 A subtração é ${calSub}
@@ -23,7 +23,7 @@ if (calSum % 2 === 0) {
 }
 
 
-if (primaryNumber === secondNumber) {
+if (firstNumber === secondNumber) {
   alert ("Os dois números inseridos são iguais")
 } else {
   alert ("Os dois números inseridos são diferentes")
